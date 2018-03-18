@@ -1,10 +1,3 @@
-<?php
-include('fonctions/functions.php');
-include('fonctions/config.php');
-$bdd = 
-
-?>
-
 <html>
 <head>
 
@@ -17,7 +10,7 @@ $bdd =
      <div id="page">
      </div>
      <div id="tools">
-
+     
      </div>
      </body>
     </html>

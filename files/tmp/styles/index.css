@@ -1,0 +1,69 @@
+#vars
+{
+    width:11vw;
+}
+
+#integer
+{
+    position:absolute;
+    margin-top:-5vw;
+    margin-left
+    width:5vw;
+}
+
+
+#inputs
+{
+    position:absolute;
+    width:140px;
+    height:100px;
+    margin-top:-7vw;
+    margin-left:7vw;
+}
+
+#img
+{
+    width:150px;
+}
+
+#elem_head
+{
+    width:14.8vw;
+    height:3vw;
+    border-style:outset;1px;
+}
+
+#valider
+{
+    width:5vw;
+    height:5vw;
+    position:absolute;
+    margin-left:70vw;
+    margin-top: 40vw;
+}
+
+#upload
+{
+    width:5vw;
+    height:5vw;
+    position:absolute;
+    margin-left:75vw;
+    margin-top:39.6vw;
+}
+
+#elem
+{
+    width:5vw;
+    margin-top:0.7vw;
+    margin-left:1.7vw;
+}
+
+#tools
+{
+    width:15vw;
+    height:44.2vw;
+    background:rgb(229,248,230);
+    margin-top:0.5vw;
+    margin-left:0.5vw;
+    border-style:outset; 1px;
+}

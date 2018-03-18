@@ -1,0 +1,15 @@
+<html>
+<head>
+
+<link rel='stylesheet'  href= "style/index.css" type='text/css'/>
+<title>VF-Togo</title>
+</head>
+
+     <body>
+<?php include('pages/baniere.php');?>
+<?php include('pages/index.php');?>
+     <div id="right">
+     <?php include('pages/right.php');?>
+     </div>
+     </body>
+    </html>

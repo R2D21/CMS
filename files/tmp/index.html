@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet'  href= "styles/index.css" type='text/css'/>
+<title>TEST</title>
+<style type="text/css">
+
+#elem_head
+{
+    width:14.8vw;
+    height:3vw;
+    border-style:outset;1px;
+}
+
+#elem_head_var
+{
+    width:14.8vw;
+    height:3vw;
+    border-style:outset;1px;
+}
+
+#elem_head_func
+{
+    width:14.8vw;
+    height:3vw;
+    border-style:outset;1px;
+}
+
+#page
+{
+    position:absolute;
+    margin-left:17vw;
+    height:44.2vw;
+    width:81vw;
+    background:rgb(232,232,232);
+    border-style:outset; 1px;
+}
+
+
+#elem
+{
+    width:5vw;
+height:2vw;
+margin-top:0.7vw;
+margin-left:1.7vw;
+}
+
+#tete{
+    position:absolute;
+width: 70px;
+height: 20px;
+}
+
+#plus
+{
+position:absolute;
+  height:100px;
+  width:100px;
+display:none;
+}
+
+#moins
+{
+margin-top:4vw;
+position:absolute;
+  height:100px;
+  width:100px;
+display:none;
+}
+#mul
+{
+margin-top:8vw;
+  position:absolute;
+  height:100px;
+  width:100px;
+display:none;
+}
+#div
+{
+margin-top:12vw;
+    position:absolute;
+    height:100px;
+    width:100px;
+    display:none;
+}
+
+#create
+{
+display:none;
+}
+
+#int
+{
+    position:absolute;
+    <!-- border-style:outset; 1px; -->
+    height:26.5px;
+    width:64px;
+    margin-top:1vw;
+    display:none;
+}
+
+#char
+{
+    position:absolute;
+margin-top:4vw;
+<!-- border-style:outset; 1px; -->
+height:50px;
+    width:100px;
+    display:none;
+}
+
+#float
+{
+    position:absolute;
+    <!-- border-style:outset; 1px; -->
+    margin-top:7vw;
+    height:30px;
+    width:70px;
+  display:none;
+}
+
+#bool
+{
+    position:absolute;
+    height:30px;
+    width:70px;
+    margin-top:10vw;
+    display:none;
+    <!-- border-style:outset; 1px; -->
+}
+
+#windows
+{
+    display: none;
+}
+
+</style>
+<script type='text/javascript' src='scripts/script.js'></script>
+<script type='text/javascript' src='scripts/move.js'></script>
+</head>
+<body onkeydown="connection(event);">
+  <div id="page">
+    <img src="img/valider.png" id="valider" onmousedown="check()">
+    <img src="img/upload.png" id="upload" onmousedown="check()">
+  </div>
+  <div id="tools">
+    <!-- <input type="button" value="ajouter div" onmousedown="ajouteElement('var','tete')"> -->
+    <div id="elem_head">
+      <div id="elem" onmousedown="maths()">operations</br></br>      
+	<div id="plus" >
+	  <!-- <form method="post"> -->
+	  <!--   <input type="text">	   -->  <img src="img/plus.png" id="img" onmousedown="move_maths(event,'plus')"></img>
+</input>
+	  </form>
+	</div>
+	<div id="moins">
+	  <img src="img/mois.png" id="img" onmousedown="move_maths(event, 'moins')"></img>
+	</div>
+	<div id="mul">
+	  <img src="img/mul.png"  id="img" onmousedown="move_maths(event, 'mul')"></img>
+	</div>
+      	<div id="div">
+	  <img src="img/div.png"  id="img" onmousedown="move_maths(event, 'div')"></div>
+      </div>
+    </div>
+    <div id="elem_head_func">
+      <div id="elem" onmousedown="functions()">fonctions</br>
+	<div id="create" onmousedown="move_func()">create</div>
+      </div>
+    </div>
+     <div id="elem_head_var">
+      <div id="elem"  onmousedown="vars()" >variables</br>
+
+	<div id="int" onmousedown="move_vars(event, 'int')">
+	  <img src="img/int.png" id="vars">
+	  <img src="img/input.png" id="inputs">
+	  <input type="text" id="integer">
+	</div>
+	<div id="char" onmousedown="move_vars(event, 'char')">
+	  <img src="img/char.png" id="vars">
+	</div>
+	<div id="float" onmousedown="move_vars(event, 'float')">
+	  <img src="img/float.png" id="vars"> 
+	</div>
+	<div id="bool" onmousedown="move_vars(event, 'bool')">
+	  <img src="img/bool.png" id="vars">
+	</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

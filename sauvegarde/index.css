@@ -1,0 +1,163 @@
+img
+{
+    width:90px;
+}
+
+#elem_head
+{
+    width:14.8vw;
+    height:3vw;
+    border-style:outset;1px;
+}
+
+#valider
+{
+    width:5vw;
+    height:5vw;
+    position:absolute;
+    margin-left:70vw;
+    margin-top: 40vw;
+}
+
+#upload
+{
+    width:5vw;
+    height:5vw;
+    position:absolute;
+    margin-left:75vw;
+}
+
+#elem
+{
+    width:5vw;
+    margin-top:0.7vw;
+    margin-left:1.7vw;
+}
+
+#elem_head
+{
+    width:14.8vw;
+    height:3vw;
+    border-style:outset;1px;
+}
+
+#page
+{
+    position:absolute;
+    margin-left:17vw;
+    height:44.2vw;
+    width:81vw;
+    background:rgb(232,232,232);
+    border-style:outset; 1px;
+}
+
+
+#debut
+{
+    width:3vw;
+    height: 3vw;
+    position:absolute;
+    display:block;
+    margin-top:2.5vw;
+    margin-left:1vw;
+    bottom: 2px;
+}
+
+#avancer
+{
+    position:absolute;
+    display:block;
+    width:3vw;
+    height: 3vw;
+    margin-top:2.5vw;
+    margin-left:1vw;
+}
+
+#gauche
+{
+    position:absolute;
+    display:block;
+    width:3vw;
+    height: 3vw;
+    margin-top:2.5vw;
+    margin-left:1vw;
+}
+
+#droite
+{
+    position:absolute;
+   display:block;
+    width:3vw;
+    height: 3vw;
+    margin-top:2.5vw;
+    margin-left:1vw;
+}
+
+#collision
+{
+    position:absolute;
+    display:block;
+    width:3vw;
+    height: 3vw;
+    margin-top:2.5vw;
+    margin-left:1vw;
+}
+
+
+#tools
+{
+    width:15vw;
+    height:44.2vw;
+    background:rgb(229,248,230);
+    margin-top:0.5vw;
+    margin-left:0.5vw;
+    border-style:outset; 1px;
+}
+
+#av
+{
+    width:2vw;
+    height:2.5vw;
+    margin-top:2.5vw;
+    margin-left:5.5vw;
+}
+
+#left
+{
+    width:2vw;
+    height:2.5vw;
+    margin-top:2.5vw;
+    margin-left:5.5vw;
+}
+
+#right
+{
+    width:2vw;
+    height:2.5vw;
+    margin-top:2.5vw;
+    margin-left:5.5vw;
+}
+
+#col
+{
+    width:2vw;
+    height:2.5vw;
+    margin-top:2.5vw;
+    margin-left:5.5vw;
+}
+
+
+#img_av
+{
+    margin-top:-5vw;
+}
+
+#img_right
+{
+    margin-top:-5vw;
+}
+
+#img_left
+{
+    margin-top:-5vw;
+}
